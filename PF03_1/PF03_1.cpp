@@ -37,6 +37,10 @@ int main() {
 
     } while(input != 999);
 
+    if(Data_case == 0) {
+        answer = false;
+    }
+
     printf("Is sort : ");
 
     if(answer) {
