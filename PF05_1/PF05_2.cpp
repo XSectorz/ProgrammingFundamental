@@ -26,7 +26,7 @@ int main() {
         }
     } while(ch != '\n');
 
-    for(int i = index ; i >= 0 ; i--) {
+    for(int i = index-1 ; i >= 0 ; i--) {
         printf("%c",ans[i]);
     }
     printf("aca");
